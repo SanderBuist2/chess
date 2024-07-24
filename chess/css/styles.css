@@ -1,0 +1,39 @@
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.tile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 4rem;
+  height: 4rem;
+}
+
+.whiteTile {
+  background-color: white;
+}
+
+.blackTile {
+  background-color: darkslategrey;
+}
+
+.chessRow {
+  display: flex;
+}
+
+.chessBoard {
+  border: 1px solid black;
+  width: 32rem;
+}
+
+.picked {
+  height: calc(4rem - 4px);
+  width: calc(4rem - 4px);
+  border: 2px solid blue;
+}
